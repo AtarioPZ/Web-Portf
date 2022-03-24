@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Header title="Victor" search={false} />
         <Routes>
-          <Route exact path="/" element={<Main/>}/>
-          <Route exact path="/About" element={<About/>}/>
-          <Route exact path="Project" element={<Project/>}/>
+          <Route exact path="/Web-Portf/Main" element={<Main/>}/>
+          <Route exact path="/Web-Portf/About" element={<About/>}/>
+          <Route exact path="/Web-Portf/Project" element={<Project/>}/>
         </Routes>
         <Footer />
       </Router>
